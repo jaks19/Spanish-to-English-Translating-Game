@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+   COLLABORATORS: NOBODY
+   
+  -->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ready, Set, Translate !</title>
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="translate_game.css" rel="stylesheet" />
+
+  </head>
+  <body>
+    <!-- Your HTML here -->
+    <h1> Translate from <span class = "from" id = "bigLangLabel"> Spanish </span> to <span class = "to" id = "bigLangLabel"> English </span> </h1>
+    <table>
+      <thead>
+        <tr>
+          <th> <span class = "from"> Spanish </span> </th>
+          <th> <span class = "to"> English </span>  </th>
+          <th> Answer </th>
+        </tr>
+        <tr>
+          <th class="current" id="currentWord"> </td>
+          <th class="current"> <input>  </input> </td>
+          <th class="current"> <button> See Answer </button> </td>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    <table>
+
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="dicts.json"></script>
+    <script src="translate_game.js"></script>
+  </body>
+</html>

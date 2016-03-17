@@ -1,0 +1,57 @@
+html {
+    background-color: #eee;
+    font-family: Trebuchet MS;
+}
+
+/* Your CSS here */
+
+h1 {
+	color: #808080;
+	margin: 20px;
+	padding-bottom: 45px;
+}
+
+th {
+	color: #808080;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+
+td {
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+
+.current {
+	padding-bottom: 20px;
+	color: black;
+}
+.correct {
+	color: blue;
+}
+
+.wrong {
+	color: red;
+}
+
+#wrong{
+	text-decoration: line-through;
+}
+
+
+input {
+	width: 80px;
+}
+
+#bigLangLabel {
+	color: black;
+}
+
+h3 {
+	float: right;
+}
