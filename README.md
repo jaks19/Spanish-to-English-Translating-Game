@@ -1,7 +1,7 @@
 # Spanish-to-English-Translating-Game
-Web application allows English speakers learning Spanish to practice their skills by giving the correct English translation of Spanish words.
+Web application allows English speakers learning Spanish to practice their skills by giving the correct English translation of Spanish words and at the same time leaning new vocabulary.
 
-Folder and File information:
+## File Hierarchyn:
 Launch_Game.html - Opens a new game in an internet browser
 dicts.json - Language dictionaries in json format and can be used to make game available in other spoken languages
 jquery - Folder with the jQuery library code
